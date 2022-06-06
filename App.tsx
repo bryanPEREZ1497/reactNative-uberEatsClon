@@ -18,13 +18,6 @@ export default function App() {
   );
 }
 
-//Con este método
-//puedo determinar a que componentes
-//dentro de la navegación le otorgo o no
-// el AuthContext
-// caso contrario podria llamar directamente al
-//AuthProvider y encapsular al StackNavigator
-
 const AppState = ({ children }: any) => {
   return <AuthProvider>
     {children}
