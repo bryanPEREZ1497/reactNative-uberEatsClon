@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": false,
+    "baseUrl": ".",
+    "paths": {
+      "@style/*": ["src/themes/*"],
+      "@component/*": ["src/screens/*"],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+  ] 
+}
